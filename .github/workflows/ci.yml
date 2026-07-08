@@ -46,7 +46,7 @@ jobs:
           name: mlruns
           path: mlruns/
 
-docker-build-push:
+  docker-build-push:
     runs-on: ubuntu-latest
     needs: train-and-track
     permissions:
